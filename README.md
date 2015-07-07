@@ -12,7 +12,7 @@ This technique can also be used to compile an Arduino application that is launch
 * Install srec_cat tool: http://srecord.sourceforge.net/
 * Modify boards.txt in the Teensyduino install to give new Linker Script option
     * hardware/teensy/avr/boards.txt
-    * Add these lines:  
+    * Add these lines (anywhere in the file is fine):  
     menu.linker=Linker Script  
     teensy31.menu.linker.default=Default  
     teensy31.menu.linker.default.build.linkerscript=mk20dx256.ld  
